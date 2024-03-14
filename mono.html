@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./monopoly.css"> -->
+    <title>Monopoly</title>
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+td{
+    border: 2px solid black;
+    width: 40px;
+}
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+
+}
+.All{
+    width: 550px;
+    margin: auto;
+    align-items: center;
+    margin-top: 10em;
+    background-color:rgb(204,231,208);
+}
+    </style>
+</head>
+<body>
+    <div class="All">
+       <table>
+        <tr>
+            <td colspan="2" rowspan="2"><img src="./free_parking-removebg-preview.png" alt=""></td>
+            <!-- <td>2</td> -->
+            <td style="height: 3em;"></td>
+            <td rowspan="2"><img src="./IMG-20240313-WA0039-removebg-preview.png" alt="" width="30px" height="30px" style="transform: rotate(180deg);"></td>
+            <td style="height: 3px;"></td>
+            <td></td>
+            <td rowspan="2"><img src="./IMG-20240313-WA0014-removebg-preview.png" alt="" width="35px" style="transform: rotate(270deg);"></td>
+            <td></td>
+            <td></td>
+            <td rowspan="2"><img src="./IMG-20240313-WA0007-removebg-preview.png" alt="" width="60%" style="margin-left: 8px;"></td>
+            <td></td>
+            <td colspan="2" rowspan="2"><img src="./jail-removebg-preview.png" alt="" width="70%" style="transform: rotate(260deg); margin-left: 5px"></td>
+            <!-- <td>13</td> -->
+        </tr>
+        <tr>
+            <!-- <td>14</td> -->
+            <!-- <td>15</td> -->
+            <td style="height: 0.7em;"></td>
+            <!-- <td>17</td> -->
+            <td style="background-color: red;"></td>
+            <td style="background-color: red;"></td>
+            <!-- <td>20</td> -->
+            <td style="background-color: yellow;"></td>
+            <!-- <td>22</td> -->
+            <td style="background-color: yellow;"></td>
+            <td style="background-color: yellow;"></td>
+            <!-- <td>25</td> -->
+            <!-- <td>26</td> -->
+        </tr>
+        <tr>
+            <td style="width: 13%;"></td>
+            <td style="background-color: orange; width: 3%;"></td>
+            <td colspan="9" rowspan="9" style="background-color: rgb(204, 231, 208);"> <img src="./box-removebg-preview.png" alt="" width="" style="margin-top: 0px;"><img src="./IMG-20240313-WA0004-removebg-preview.png" alt="" width="70%" style="margin-left: 3em; margin-top: -7em;"> <img src="./IMG-20240313-WA0009-removebg-preview.png" alt="" style="margin-left: 15em; margin-top: -7em;"></td>
+            <!-- <td>30</td> -->
+            <!-- <td>31</td> -->
+            <!-- <td>32</td> -->
+            <!-- <td>33</td> -->
+            <!-- <td>34</td> -->
+            <!-- <td>35</td> -->
+            <!-- <td>36</td> -->
+            <!-- <td>37</td> -->
+            <td style="width: 1%; background-color: green; width: 3%;"></td>
+            <td style="width: 13%; height: 2em;"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td style="background-color: orange;"></td>
+            <!-- <td>42</td> -->
+            <!-- <td>43</td> -->
+            <!-- <td>44</td> -->
+            <!-- <td>45</td> -->
+            <!-- <td>46</td> -->
+            <!-- <td>47</td> -->
+            <!-- <td>48</td> -->
+            <!-- <td>49</td> -->
+            <!-- <td>50</td> -->
+            <td style="background-color: green;"></td>
+            <td style="height: 2em;"></td>
+        </tr>
+        <tr>
+        <td colspan="2"><img src="./IMG-20240313-WA0006-removebg-preview.png" alt="" width="50%" style="margin-left: 15px;"></td>
+        <!-- <td>54</td> -->
+        <!-- <td>55</td> -->
+        <!-- <td>56</td> -->
+        <!-- <td>57</td> -->
+        <!-- <td>58</td> -->
+        <!-- <td>59</td> -->
+        <!-- <td>60</td> -->
+        <!-- <td>61</td> -->
+        <!-- <td>62</td> -->
+        <!-- <td>63</td> -->
+        <td colspan="2" style="height: 2em;"><img src="./community_box-removebg-preview.png" alt="" width="35%" style="margin-left: 15px;"></td>
+        <!-- <td>65</td> -->
+        </tr>
+        <tr>
+            <td></td>
+            <td style="background-color: orange;"></td>
+            <!-- <td>68</td> -->
+            <!-- <td>69</td> -->
+            <!-- <td>70</td> -->
+            <!-- <td>71</td> -->
+            <!-- <td>72</td> -->
+            <!-- <td>73</td> -->
+            <!-- <td>74</td> -->
+            <!-- <td>75</td> -->
+            <!-- <td>76</td> -->
+            <td style="background-color: green;"></td>
+            <td style="height: 2em;"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><img src="./IMG-20240313-WA0014-removebg-preview.png" alt="" width="35px" style="margin-left: 20px;"></td>
+            <!-- <td>80</td> -->
+            <!-- <td>81</td> -->
+            <!-- <td>82</td> -->
+            <!-- <td>83</td> -->
+            <!-- <td>84</td> -->
+            <!-- <td>85</td> -->
+            <!-- <td>86</td> -->
+            <!-- <td>87</td> -->
+            <!-- <td>88</td> -->
+            <!-- <td>89</td> -->
+            <td colspan="2" style="height: 2em;"><img src="./IMG-20240313-WA0014-removebg-preview.png" alt="" width="35px" style="margin-left: 15px;"></td>
+            <!-- <td>91</td> -->
+        </tr>
+        <tr>
+        <td></td>
+        <td style="background-color: purple;"></td>
+        <!-- <td>94</td> -->
+        <!-- <td>95</td> -->
+        <!-- <td>96</td> -->
+        <!-- <td>97</td> -->
+        <!-- <td>98</td> -->
+        <!-- <td>99</td> -->
+        <!-- <td>100</td> -->
+        <!-- <td>101</td> -->
+        <!-- <td>102</td> -->
+        <td colspan="2" style="height: 2em;"><img src="./IMG-20240313-WA0038-removebg-preview.png" alt="" width="20px" style="transform: rotate(260deg);margin-left: 30px;"></td>
+        <!-- <td>104</td> -->
+    </tr>
+    <tr>
+        <td></td>
+        <td style="background-color: purple;"></td>
+        <!-- <td>107</td> -->
+        <!-- <td>108</td> -->
+        <!-- <td>109</td> -->
+        <!-- <td>110</td> -->
+        <!-- <td>111</td> -->
+        <!-- <td>112</td> -->
+        <!-- <td>113</td> -->
+        <!-- <td>114</td> -->
+        <!-- <td>115</td> -->
+        <td style="background-color: blue;"></td>
+        <td style="height: 2em;"></td>
+    </tr>
+    <tr>
+        <td colspan="2"><img src="./bulb-removebg-preview.png" alt=""></td>
+        <!-- <td>119</td> -->
+        <!-- <td>120</td> -->
+        <!-- <td>121</td> -->
+        <!-- <td>122</td> -->
+        <!-- <td>123</td> -->
+        <!-- <td>124</td> -->
+        <!-- <td>125</td> -->
+        <!-- <td>126</td> -->
+        <!-- <td>127</td> -->
+        <!-- <td>128</td> -->
+        <td colspan="2" style="height: 2em;"><img src="./IMG-20240313-WA0010-removebg-preview.png" alt="" width="55%" style="margin-left: 15px;"></td>
+        <!-- <td>130</td> -->
+    </tr>
+    <tr>
+        <td></td>
+        <td style="background-color: purple;"></td>
+        <!-- <td>133</td> -->
+        <!-- <td>134</td> -->
+        <!-- <td>135</td> -->
+        <!-- <td>136</td> -->
+        <!-- <td>137</td> -->
+        <!-- <td>138</td> -->
+        <!-- <td>139</td> -->
+        <!-- <td>140</td> -->
+        <!-- <td>141</td> -->
+        <td style="background-color: blue;"></td>
+        <td style="height: 2em;"></td>
+    </tr>
+    <tr>
+        <td colspan="2" rowspan="2"><img src="./visiti.jpg" alt=""></td>
+        <!-- <td>145</td> -->
+        <td style="background-color: rgb(22, 177, 177); height: 0.7em;"></td>
+        <td style="background-color: rgb(22, 177, 177);"></td>
+        <td rowspan="2"></td>
+        <td style="background-color: rgb(22, 177, 177);"></td>
+        <td rowspan="2"><img src="./IMG-20240313-WA0014-removebg-preview.png" alt=""  width="100%" style="transform: rotate(270deg);"></td>
+        <td rowspan="2"></td>
+        <td style="background-color: brown;"></td>
+        <td rowspan="2"><img src="./box.jpg" alt="" width="150%" style="margin-left: -10px;"></td>
+        <td style="background-color: brown;"></td>
+        <td colspan="2" rowspan="2"><img src="./go-removebg-preview.png" alt="" width="70%" style="margin-left: 10px;"></td>
+        <!-- <td>156</td> -->
+    </tr>
+    <tr>
+        <td style="height: 3em;"></td>
+        <td></td>
+        <!-- <td>159</td> -->
+        <td></td>
+        <!-- <td>161</td> -->
+        <!-- <td>162</td> -->
+        <td></td>
+        <!-- <td>164</td> -->
+        <td></td>
+        <!-- <td>166</td> -->
+        <!-- <td>167</td> -->
+        <!-- <td>168</td> -->
+        <!-- <td>169</td> -->
+    </tr>
+</table>
+    </div>
+
+    
+</body>
+</html>
